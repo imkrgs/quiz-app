@@ -1,0 +1,18 @@
+:host {
+  display: block;
+  height: 70vh;
+  min-height: 470px;
+  margin-top: 3vh;
+  margin-bottom: 2vh;
+  overflow-y: scroll;
+  padding: 0 5vw;
+}
+
+@media screen and (min-width: 40em) {
+  :host {
+    column-count: 2;
+    column-gap: 3em;
+    padding: 0 3vw;
+    column-rule: solid #17847e;
+  }
+}
